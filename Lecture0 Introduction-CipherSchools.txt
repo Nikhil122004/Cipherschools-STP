@@ -1,0 +1,93 @@
+Scope of Data Science
+---------------------------
+
+Nowadays we are completely surrounded by data. Data Science is all around or we can say completely surrounded 
+by use case of data Science and its application. There is a great scope of Data Science. Nowadays we are familiar
+with AI tools such as Chatgpt, Gemini etc. which uses llm(large language models) are common example of data science.
+Some more common example of data science generally around us are like Social Media applications such as an Instagram
+,youtube in which recommendation system is working behind which is giving output based on our preferences. Another e.g.
+is Food delivery apps like Zomato,Swiggy uses data science for tracking the delivery, time of delivery, Discount on Food order,
+Food preference based on our previous orders .In fact Data Science is now being used in every field.
+
+
+
+Introduction to the Course
+----------------------------
+
+Course Structure
+ 
+1. Introduction to Data Science
+  
+  Overview of data science and its importance
+  Introduction to the data science workflow
+  Key skills and tools in data science
+ 
+2. Setting Up Your Environment
+
+  Anaconda Setup and Overview: Introduction to Anaconda,
+  installation, and management of Python environments.
+  GoogleColab Notebook Overview: Getting started with Google
+  Colab for Python programming and data science projects.
+  Version Control with GIT/GITLAB: Basics of version control, using Git
+  for project management, introduction to GitLab for collaboration.
+ 
+3. Advanced Excel for Data Analysis
+  
+  Advanced formulas and functions
+  Data cleaning and preparation techniques
+  PivotTables, Pivot Charts, and Power Query
+ 
+4. Python for Data Science
+
+  Introduction to Excel macros and VBA for automation
+  Python fundamentals (variables, data types, conditionals, loops)
+  Functions, lambda expressions, and error handling
+  Working with data using Pandas
+  Data manipulation and analysis with NumPy
+
+5. Data Visualization
+   Principles of data visualization
+   Introduction to Matplotlib and Seaborn
+   Creating interactive visualizations with plotly
+ 
+6. Introduction to Power BI
+
+   Getting started with Power BI Desktop
+   Datamodelling and DAX basics
+   Creating dashboards and reports
+   PowerBI Service basics for sharing and collaboration
+
+ 7. Data Preprocessing Concepts
+
+  Data cleaning and normalization
+  Handling missing data
+  Feature engineering and selection
+
+ 8. Statistics Deep Dive
+
+ Advanced statistical measures and distributions
+ Correlation and regression analysis
+ Hypothesis testing and inferential statistics
+
+ 9. Machine Learning Algorithms
+
+  Supervised learning (linear regression, logistic regression, decision
+ trees, random forests, SVMs)
+ Unsupervised learning (k-means clustering, hierarchical clustering,
+ PCA)
+ Introduction to neural networks and deep learning
+
+Project: Building a Chatbot
+
+ Introduction to NLP and chatbot frameworks
+ Designing and training a simple chatbot
+ Integrating the chatbot with Python or web applications
+
+Project: Image Classification Project
+
+ Basics of image processing and computer vision
+ Introduction to CNNs (Convolutional Neural Networks)
+ Building and training a simple image classifier
+ Evaluating model performance
+
+ 
