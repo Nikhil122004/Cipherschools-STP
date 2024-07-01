@@ -1,0 +1,315 @@
+Lecture 13- Python Fundamentals (Variables, Data Types, Conditionals, Loops)
+
+Variables
+Definition: Variables in Python are used to store data that can be referenced and manipulated throughout the program.
+
+ # Assigning values to variables
+name ="John Doe"
+age = 30
+height =5.9
+
+
+Data Types- specify the type of data that a variable can hold.
+
+#Integer 
+num=10
+
+# Inbuilt functions and operations for Integer
+print(abs(num)) # Absolute value
+
+print(bin(num)) #Binary representation
+
+print(hex(num)) # Hexadecimal representation
+
+print(pow(num,2)) #power function
+
+print(divmod(num,3)) #quotient and remainder
+
+#Float
+price=99.99
+
+print(round(price)) #rounding
+
+print(abs(price)) #absolute value
+
+print(int(price)) #convert to integer
+
+print(float("123.45")) # convert string to float
+
+print(price.is_integer()) # check if the float is an integer
+
+
+
+#String
+
+greeting="Hello, World!"
+
+print(greeting.lower()) #convert to lowercase
+
+print(greeting.upper()) #convert to uppercase
+
+print(greeting.replace("world","Python")) #replace substring
+
+print(greeting.split()) #split string into a list
+
+print(greeting.find("world")) #find substring
+
+print(len(greeting)) #length of the string
+
+
+#List
+fruits=["apple","banana","cherry"]
+fruits.append("orange") #append an element
+
+fruits. extend(["grape" ,"melon"]) # Extend list with another list
+
+fruits. remove( "banana" ) # Remove an element
+
+fruits. pop() # Remove last element
+
+fruits. sort ( ) # Sort the list
+
+print(fruits)
+print(len(fruits))
+print(fruits.index("cherry")) # find index of element
+print("apple" in fruits) #check if element is in list
+
+
+#Tuple
+coordinates=(10.0,20.0)
+
+print(coordinates.index(20.0)) #find index of element
+
+print(len(coordinates)) #length of the tuple
+
+print(coordinates.count(10.0)) #count occurences of a value
+
+
+# Dictionary
+
+person={"name":"john","age":30}
+
+print(person.keys()) #get all keys
+
+print(person.values()) #get all values
+
+print(person.items()) #get all key value pairs
+
+print(person.get("name")) #get value by key
+
+person.update({"height":180}) #update dictionary with another dictionary
+person.pop("age") # remove key-value pair by key
+print(person)
+
+
+#set
+se={1,2,3,4}
+
+se
+#length
+print(len(se))
+#add
+se.add(9)
+se.update({10,11,12}) #add another set
+
+se.remove(10)
+
+
+#boolean
+is_active=true
+
+print(int(is_active))
+print(bool(0))  #convert int to Boolean(F)
+
+print((bool(1))  #convert int to Boolean(T)
+print(bool("Hello") #convert string to Boolean
+
+print(is_active and False) # Logical And
+print(is_active or False) #Logical or
+print(not is_active) #logical Not
+
+
+Conditionals
+
+
+# Basic if-elif-else statement
+age = 20
+if age < 18:
+print( "Minor")
+elif age >= 18 and age < 65:
+print("Adu1t")
+else:
+print( "Senior")
+
+
+# Checking Even or Odd Number
+number = 42
+if number % 2==0
+print("even number")
+else:
+print("Odd number")
+
+
+
+# Grade Evaluation
+score=85
+if score >=90:
+print ( "Grade : A")
+elif score >=80:
+print( "Grade : B")
+elif score >=70:
+print( "Grade : c")
+elif score >=60:
+print( "Grade : D")
+else
+print( "Grade : F")
+
+# Temperature Check
+temperature =30
+if temperature > 30:
+print("It's a hot day")
+elif temperature >=20:
+print("its a nice day")
+else:
+print("It's a cold day")
+
+
+# Nested Conditionals for BMI Calculation
+
+weight=70
+height=1.75
+bmi =weight / (height ** 2)
+if bmi < 18.5:
+print ("Underweight")
+else:
+if bmi < 24.9:
+print("normal weight")
+else:
+if bmi < 29.9:
+print("Overweight")
+else:
+print( "Obesity")
+
+
+
+
+#Loops: loops are used to execute block of code repeatedly.
+
+#For loop
+for i in range(5):
+print(i)
+
+
+#iterating over a list
+fruits=["apple","banana","cherry","date"]
+for fruit in fruits:
+print(fruit)
+
+
+#iterating over a string
+greeting="Hello"
+for char in greeting:
+print(char)
+
+
+# Iterating Over a Dictionary
+person={"name","John","age": 30, "city" :"New York"}
+
+for key, value in person. items ( ) :
+print (f" {key}:{value}" )
+
+#using with 'range()' Function with a step
+for i in range(0,10,2);
+print(i)
+
+
+#nested For Loops
+for i in range(3):
+for j in range(2):
+print(f"i={i},j={j}")
+
+#using the 'enumerate()' Function
+fruits=["apple","banana","cherry"]
+for index,fruit in enumerate(fruits);
+print(f"{index}:{fruit}")
+
+
+#While loop
+count=0
+while count<5;
+print(count)
+count+=1
+
+
+#While Loop with Break
+count=0
+while True:
+print (count)
+count += 1
+if count >= 5:
+break
+
+
+# While Loop with Continue
+count =0
+while count < l0:
+count += 1
+if count % 2==0;
+continue
+print (count)
+
+
+# Simulating a Countdown
+countdown = 10
+while countdown > 0:
+print (countdown)
+countdown -= 1
+print("B1ast off!" )
+
+
+# Using a While Loop for Validation
+password =""
+while len(password) < 8:
+password =input("Enter a password must be at least 8 characters long): ")
+
+if len(password) < 8:
+print("password too short. try again")
+print("Password accepted") 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
