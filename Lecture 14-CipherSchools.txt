@@ -1,0 +1,158 @@
+Lecture 14-  Functions, Lambda Expressions, And Error Handling
+
+
+Functions
+
+Definition- A function is a block of code that performs a specific task. Functions help to modularize code,making it more organized and maintainable.
+
+
+# Simple Function
+def add_numbers(a, b):
+""" Function to add two numbers"
+return a + b
+
+# Calling the function
+print(add_numbers((3,4))
+
+
+# Function with Default Arguments
+def greet(name, message="Hello"):
+"""Function to greet a person with a default message"""
+return f" {message}, {name}!"
+
+# Calling the function
+print(greet("Bob") )
+print(greet("Alice", "hi"))
+
+
+
+# Function with Variable-length Arguments
+def sum_all(*args):
+"""Function to sum all given arguments"""
+return sum(args)
+
+# Calling the function
+print(sum_all(1 2, 3, 4, 5))
+
+# Function with Keyword Arguments
+def display_info(**kwargs):
+"""Function to display information using keyword arguments"""
+for key, value in kwargs. items():
+print(f"{key}:{value}" )
+
+#calling the function
+display_info(name='john",age=30,city="New York")
+
+
+#Higher-order Function
+
+# Higher-Order Function
+def apply_function(func, x, y):
+"""Function to apply another function to given arguments""
+return func(x, y)
+
+def multiply(a, b):
+return a * b
+
+# Calling the higher-order function
+print(apply_function(multiply, 6, 7))
+
+
+Lambda Expressions
+
+also known as anonymous functions,are small,unnamed functions defined as lambda functions.
+
+# Simple Lambda Function
+square lambda X: X * x
+# Calling the lambda function
+print( square(S) )
+
+# Lambda Function in 'map'
+numbers =[1,2,3,4,5]
+squares = list (map(lambda x:x*x, numbers))
+
+
+# Lambda Function in 'filter' 
+numbers= [1, 2, 3, 4, 5, 6)
+even numbers=list(filter(lambda x: x % 2 ==0,numbers))
+
+# Displaying the result
+print (even_numbers)
+
+# Lambda Function in 'sorted'
+students=[("Alice", 25),("Bob",20),("Charlie", 23)]
+sorted_students= sorted(students,key=lambda student:student[1])
+
+# Displaying the result
+print ( sorted_students)
+
+
+Error Handling
+
+# Basic Try-Except Block
+try:
+# Code that may raise an exception
+result =l0 /0
+except ZeroDivisionError:
+# Code to handle the exception
+print("Cannot divide by zero! ")
+
+
+
+# Try-Except-Else Block
+try:
+# Code that may raise an exception
+result
+l0 /0
+except ZeroDivisionError:
+# Code to handle the exception
+print("Cannot divide by zero!" )
+else:
+# Code to run if no exception occurs
+print("Division successful !")
+
+
+# Try-Except-Finally Block
+try:
+# Code that may raise an exception
+result = l0 / 2
+except ZeroDivisionError:
+# Code to handle the exception
+print("cannot divide by zero!")
+finally:
+print("Execution completed.")
+
+#Handling Multiple Exceptions
+# Handling Multiple Exceptions
+try :
+# Code that may raise an exception
+number =int(input("Enter a number"))
+result =l0 / number
+except ValueError:
+# Code to handle the exception
+print("lnvalid input! Please enter a number.")
+except ZeroDivisionError:
+# Code to handle the exception
+print("Cannot divide by zero!)
+
+# Raising Exceptions
+def check_positive(number):
+if number <=0:
+raise ValueError("Number must be positive")
+try:
+check_positive(-5)
+except ValueError as e:
+print(e)
+
+
+
+
+
+
+
+
+
+
+
+
+
