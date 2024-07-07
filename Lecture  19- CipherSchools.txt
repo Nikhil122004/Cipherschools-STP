@@ -1,0 +1,77 @@
+Lecture - 19 Creating interactive visualisations with plotly
+
+
+Installation
+
+To install plotly, use the following command:
+
+pip install plotly 
+
+
+Loading the Dataset
+
+import pandas as pd
+
+#Load the dataset
+df = pd.read_csv('sales_data.csv')
+print(df.head( ) )
+
+
+Creating a line plot
+
+import plotly.express as px
+
+#create a line plot
+fig=px.line(df,x='Date',y='sales',title='Sales Trend over Time',markers=True)
+fig.show()
+
+
+Creating a Bar Chart
+
+#create a bar chart
+fig=px.bar(df,x='region',y='sales',title='sales by region',color='Region')
+fig.show()
+
+
+Creating a Scatter Plot
+
+#create a scatter plot
+fig=px.scatter(df,x='Sales',y='Profit',title='Sales vs Profit',color='Region',size='Quantity',hover_date=['Product'])
+fig.show()
+
+
+Creating a histogram
+
+#create a histogram
+fig=px.histogram(df,x='Sales',title='Distribution of Sales',nbins=10)
+fig.show()
+
+
+Creating a pie chart
+
+#create a pie chart
+fig=px.pie(df,value='Sales',names='Product',title='Sales Distribution by Product')
+fig.show()
+
+
+#creating an interactive line plot
+fig=px.line(df,x='Date',y='sales',title='Interactive Sales Trend over  Time',markers=True,color='Region',hover_data=['Product','Quantity'])
+fig.show()
+
+
+
+import plotly.express as px
+
+#Sample data
+data= {
+	'City': ['New york','Los Angeles','Chicago','Houston','Phoenix'],
+	'State': ['NY','CA','IL','TX','AX'],
+	'Population':[8419000,3980400,2716000,2328000,1690000]
+}
+
+#creating the dataframe
+df=pd.DataFrame(data)
+
+#creating a geographical map
+fig=px.choropleth(df,locations='State',locationmode='USA-states,color='Population',scope='usa',title='Population by state')
+fig.show()
