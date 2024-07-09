@@ -1,0 +1,56 @@
+Lecture 22- Data Modelling And Dax Basics
+
+Key DAX Functions: SUM, COUNT, and IF
+
+1. SUM
+Function:
+Description: Adds all the numbers in a column.
+Real-Life Scenario: Calculating the total sales amount in a sales dataset.
+
+2. COUNT
+Function: COUNT(ColumnName)'
+Description: Counts the number of non-blank cells in a column.
+Real-Life Scenario: Counting the number of orders placed by customers.
+
+3. IF
+
+Function: Logical Test, ResultIfTrue, ResultIfFalse)
+Description: Checks a condition, and returns one value if true, and another value if false.
+Real-Life Scenario: Categorizing sales as "High" or "Low" based on a sales threshold.
+
+
+#Real-Life Use Case Scenarios for DAX Functions
+
+Sales Analysis
+
+Inventory Management
+
+Customer Insights
+
+Financial Reporting
+
+Human Resources
+
+Project Management
+
+Marketing Analysis
+
+Operational Efficiency
+
+
+#Advantages of Using DAX Functions
+
+Integration
+
+Reusability
+
+Scalability
+
+Flexibility
+
+User-Friendly
+
+Custom Calculations
+
+Enhanced Reporting
+
