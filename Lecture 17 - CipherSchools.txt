@@ -1,0 +1,66 @@
+Lecture 17 - Principles of Data Visualization
+
+
+what is Data Visualization?
+Data Visualization is graphical or visual representation of data.
+
+
+Different Plots
+
+Line Chart
+
+Bar Chart
+
+Pie Chart
+
+Histogram
+
+Scatter Plot
+
+Box Plot
+
+
+Two principles for which type of plot is used for data:
+
+1.Use case
+2.Type of Data
+
+
+Data Visualization Library and Tools
+
+1. PowerBi
+
+2. Plotly--R,Python
+
+
+Principles for Data Visualization
+
+Principle 1- Clarity
+
+Avoid Clutter.
+use clear visual Hierarchies.
+
+2. Accessibility
+
+use color schemes that are colorblind friendly
+Ensure text is readable
+
+3. Accuracy
+Use appropriate scales and axes.
+Avoid misleading representations.
+
+4. Relevance
+Tailor visualizations to the audience.
+Highlight what's most important.
+
+5. Aesthetics
+Balance color and design elements.
+Use whitespace effectively.
+
+6. Interaction
+Examples of interactive tools (e.g., hover, drill-down).
+Benefits of interaction in exploring data.
+
+7. Context
+keep the "big picture" in mind.
+compare and contrast data points.
