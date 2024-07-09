@@ -1,0 +1,60 @@
+Lecture 24- Correlation Concept
+
+Correlation 
+
+Definition:
+
+Correlation measures the strength and direction of a linear relationship between two variables.
+
+concepts:
+
+--Strength of relationship
+
+--Direction of relationship
+
+
+Types of Correlation Coefficients
+
+1.Pearson Correlation Coefficient: Measures the linear relationship between two continuous
+variables. It assumes that the variables follow a normal distribution.
+
+2.Spearman's Rank Correlation Coefficient: A non-parametric measure of rank correlation,
+assessing how well the relationship betwee two variables can be described using a monotonic
+function.
+
+3.Kendall's Tau: Another rank-based correlation coefficient, often used for data with a natural ordinal classification.
+
+
+
+Understanding a Correlation Matrix
+A correlation matrix displays correlation coefficients between sets of variables. Each cell in the matrix represents the correlation between two variables. 
+
+
+Real-Life Use Cases
+
+Finance
+
+Marketing
+
+HealthCare
+
+
+
+#Correlation
+
+import panda as pd
+import numpy as np
+
+#seed for reproductivity
+np.random.seed(42)
+
+#generate sample data
+data={
+'Age':np.random.normal(30,10,100).astype(int),
+'Annual Income(k$)':np.random.normal(50,20,100).astype(int),
+'Spending Score (1-100)' : np.random.randint(1, 100, 100),
+'years with Company' : np.random.normal(5, 2, 100) .astype(int)
+
+# Create DataFrame
+df = pd.DataFrame(data)
+df
