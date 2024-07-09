@@ -1,0 +1,68 @@
+Lecture 25- Hypothesis Testing And Inferential Statistics
+
+
+Hypothesis Testing
+Definition:
+
+Hypothesis testing is a statistical method used to make decisions using data from a sample. The goal is to determine whether there is enough evidence in a sample of data to infer that a certain condition is true for the entire population.
+
+Steps in Hypothesis Testing:
+1. State the Hypotheses:
+
+• Null Hypothesis (HO): There is no effect or difference, and it represents a statement of "no change" or "no difference."
+
+• Alternative Hypothesis (HI or Ha): Contradicts the null hypothesis and represents a
+statement of "there is an effect" or "there is a difference."
+
+Steps in Hypothesis Testing
+
+1.State the Hypotheses
+2.Choose a Significance Level (a)
+3.Collect Data and Compute a Test Statistic
+4.Determine the P-value
+5.Make a Decision
+
+
+Type of Tests
+
+1. T-test
+2. z- test
+3. Anova
+4. chi-square test
+
+
+1. A/B Testing (Marketing and Product Development)
+Example:
+An e-commerce site may test two different homepage designs (A and B) to see which one leads to higher sales. The null hypothesis (HO) might state that there is no difference in sales between the two designs, while the alternative hypothesis (HI) might state that design B increases sales compared to design A.
+2. Medicine and Healthcare
+Example:
+A new drug is developed to lower blood pressure. Researchers conduct a clinical trial where one group receives the new drug and another receives a placebo. The null hypothesis could be that the new drug has no effect on blood pressure, with the alternative being that it does have an effect.
+
+
+Inferential Statistics
+
+Key Concepts:
+
+Population and Sample 
+
+
+Estimation:
+
+Point Estimation
+Interval Estimation
+
+Common Point Estimators:
+
+Sample Mean as an estimator for the Population Mean.
+Sample Proportion as an estimator for the Population Proportion ( p ).
+Sample Variance ( s^2 ) as an estimator for the Population Variance.
+
+Components of Confidence Intervals:
+• Confidence Level
+• Margin of Error
+
+
+
+
+
+
