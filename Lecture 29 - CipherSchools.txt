@@ -1,0 +1,58 @@
+Lecture 29 - Introduction To Machine Learning
+
+
+What is Al ?
+
+• Simulation of Human intelligence processes by machines
+Or
+• It is the ability for a computer to think and learn.
+
+Term used in Ai
+Learning
+
+Reasoning
+
+Self-Correction
+
+
+
+What is ML?
+
+• Machine learning is the subset of Al that uses statistical methods to allow machines to improve their results with the amount of training data fed to it.
+
+Types of ML
+
+Supervised Learning
+
+Unsupervised Learning
+
+
+ARTIFICIAL INTELLIGENCE
+Any technique which enables computers to mimic human behavior
+
+MACHINE LEARNING
+Al techniques that give computers the ability to learn without being explicitly programmed to do so.
+
+DEEP LEARNING
+A subset of ML which make the computation of multi-layer neural networks feasible.
+
+What is Data science?
+
+• Data Science is a field of study involving statistical tools and techniques to
+extract meaningful insights from data.
+• The data from which these insights are extracted can come from various sources, including databases, business transactions, sensors, and more.
+• Data science uses complex machine learning algorithms to build predictive
+models.
+
+
+Lifecycle of data science project
+
+Understanding the problem
+
+Gathering Relevant Data
+
+Data Preparation and EDA
+
+Feature Engineering and Feature Extraction
+
+Model Building and Deployment
