@@ -1,0 +1,81 @@
+Lecture 31 - Unsupervised Learning(k-Means Clustering,Hierarchical Clustering,Pca)
+
+
+
+K-Means Clustering
+k-Means Clustering aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean. The algorithm iteratively assigns data points to clusters and updates the cluster centroids until convergence.
+
+from sklearn.datasets import make_blobs
+from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt
+
+# Generating synthetic data
+X, y = make_blobs(n_samples=300,centers=4,cluster_std=0.60,random_state=0)
+
+#Training the model
+model=KMeans(n_clusters=4)
+y_pred=model.fit_predict(x)
+
+
+#plotting the results
+plt.scatter(X[:,0],x[:,1],c=y_pred,cmap='rainnbow')
+plt.scatter(model.cluster_centers_[:,0],model.cluster_centers_[:, 1], s=300, c='black', marker='X')
+plt.title('K-means Clustering')
+plt.xlabel('Feature 1')
+plt.ylabel('Feature 2')
+plt.show()
+
+
+
+Hierarchical Clustering:
+• develop the hierarchy of clusters in the form of a tree, and this tree-shaped structure is known as the dendrogram
+
+
+from sklearn.datasets import make_blobs
+from sklearn.cluster import AgglomerativeClustering
+import matplotlib.pyplot as plt
+
+
+# Generating synthetic data
+X, y = make_blobs(n_samples=300,centers=4,cluster_std=0.60,random_state=0)
+
+
+#Training the model
+model=AgglomerativeClustering(n_clusters=4)
+y_pred=model.fit_predict(x)
+
+#plotting the results
+plt.scatter(X[:,0],x[:,1],c=y_pred,cmap='rainnbow')
+plt.title('Hierarchical clustering')
+plt.xlabel('Feature 1')
+plt.ylabel('Feature 2')
+plt.show()
+
+
+
+Principal Component Analysis (PCA): Dimensionality Reduction
+
+PCA is a powerful technique for dimensionality reduction, allowing complex high-dimensional
+data to be subspace while preserving the maximum amount of variance.
+
+
+from sklearn.datasets import load_iris
+from sklearn.decomposition  import PCA
+import matplotlib.pyplot as plt
+
+#Load the Iris dataset
+iris=load_iris()
+X=iris.data
+y=iris.target
+
+#Applying PCA
+pca=PCA(n_components=2)
+X_pca=pca.fit_transform(X)
+
+#plotting the results
+plt.scatter(X_pca[:,0],x_pca[:,1],c=y,cmap='rainnbow')
+plt.title('PCA on Iris Dataset')
+plt.xlabel('Principal component 1')
+plt.ylabel('Principal component 2')
+plt.show()
+
