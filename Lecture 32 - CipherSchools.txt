@@ -1,0 +1,48 @@
+Lecture 32 - Introduction To neural Networks And Deep Learning
+
+
+What is Deep Learning?
+
+Deep learning is a powerful machine learning technique that uses artificial neural networks to learn and make predictions from large amounts of data, It can tackle complex problems that were once considered difficult for computers to Deep teaming models are trained on massive
+datasets, allowing them to discover intricate patterns and extract meaningful features automatically. This makes deep learning exceptionally well-suited for tasks tike image
+recognition, natural language processing, and predictive analytics.
+
+
+What is Neural Networks?
+
+Neural networks are a powerful machine learning technique inspired by the human brain. They can uncover hidden patterns, make accurate predictions. and solve complex problems that traditional algorithms struggle with. This adaptability, nonlinearity, and scalability is what makes neural networks so transformative across many industries.
+
+
+Types Of Neural Networks
+
+Convolutional Neural Networks (CNNs)
+
+Recurrent  Neural Networks (RNNs)
+
+Generative Adversial Networks (GANs)
+
+AutoEncoders
+
+Applications of Deep Learning
+Deep learning has revolutionized numerous industries, from computer vision and natural language processing to drug discovery and autonomous vehicles. Its ability to team complex patterns in data has enabled breakthroughs in fields ranging from healthcare to entertainment. For example. deep teaming algorithms can analyze medical images to detect
+diseases. assist in robot navigation , and even generate realistic artwork and music. The versatility of deep teaming makes it a powerful tool for solving a wide variety of real-world problems.
+
+
+
+Training Neural Networks
+
+1. Data Prepration 
+
+2. Architectural Design
+
+3. Hyperparameter Tunning
+
+4. Training Process
+
+
+Deep Learning Frameworks
+
+1. TensorFlow
+2. PyTorch
+3. Keras
+4. Caffe
